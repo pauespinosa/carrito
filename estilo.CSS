@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300&family=Poltawski+Nowy:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+}
+
+.mainIndex{
+    text-align: center;
+    background-image: url(pexels-eberhard-grossgasteiger-691668.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+.contenedorIndex{
+    text-align: center;
+}
+.contenedorTitulo{
+    font-family: 'Poltawski Nowy', serif;
+    font-size: xx-large;
+    
+}
+.contenedorParrafo{
+    font-family: 'Anuphan', sans-serif;
+}
+.redesociales{
+    background-color: rgb(78, 78, 78);
+    height: 80px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.redesocialesimg{
+    height: 20px;
+    margin-right: 10px;
+    
+} 
+.menu{
+    background-color: #fcf5dd;
+    height: 80px;
+    display: flex;
+    justify-content: left; 
+    align-items: center; 
+}
+
+.menuimg{
+    height: 40px;
+    margin-left: 250px;
+}
+.listaMenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    list-style-type: none;
+    margin-left: 40%;
+}
+.listaMenu li{
+    margin-right: 20px;
+}
+.contenedor-principal img{
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin: 30px;
+}
+
+.contenedor-principal {
+    background-image: rgb (245, 245, 220);
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.contenedorYO {
+    margin-right: 200px;
+}
+
+.contenedor-principal h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contenedor-principal p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+.botonMain {
+    color: #000000;
+    background: #fcf5dd;
+    border:none;
+    border-radius: 10px;
+    font-family: verdana;
+    font-size: 15px;
+    width: 150px; 
+    height: 40px;
+    margin-right: 30px;
+    margin-left: 350px;
+}
+.bloques{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cuadro1{
+    text-align: center;
+    width: 20%;
+    margin: 10px 20px;
+    padding: 30px 0px;
+    border: #b9b7b7 solid;
+    border-radius: 30px;
+    background-color: #fcf5dd;
+}
+.imgCuadro1{
+    width: 80px;
+}
+.boton1{
+    color: #ffffff;
+    background:#b9b7b7;
+    border: none;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    width: 120px;
+    height: 40px;
+
+}
+.cuadro2{
+    text-align: center;
+    width: 20%;
+    margin: 10px 20px;
+    padding: 30px 0px;
+    border: #b9b7b7 solid;
+    border-radius: 30px;
+    background-color: #fcf5dd;
+}
+.autor {
+    display: flex;
+    border: solid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(78, 78, 78);
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
